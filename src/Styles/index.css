@@ -36,10 +36,11 @@ nav{
     margin: 1rem;
 }
 
-.cards--container{
+.cards-container{
     display: flex;
     flex-wrap: nowrap;
     gap: 2rem;
+    padding: 0 4rem;
     overflow-x: auto;
 }
 
@@ -55,16 +56,25 @@ nav{
 .card-title{
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0 0.5rem; 
 }
 
 .card-image{
     width: 100%;
+    max-height: 20rem;
     border-radius: 1rem;
+    object-fit: fill;
 }
 
 .card-stats{
     display: flex;
     align-items: center;
+    margin: 1rem 0;
+    gap: 6px;
+}
+
+.card-price{
+    margin: 0 0.5rem; 
 }
 
 .gray{
