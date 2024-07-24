@@ -3,8 +3,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 nav{
-    height: 8rem;
+    height: 7rem;
     padding: 2rem 4rem;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -86,5 +94,15 @@ nav{
 }
 
 .bold{
+    font-weight: bold;
+}
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 8px;
     font-weight: bold;
 }
